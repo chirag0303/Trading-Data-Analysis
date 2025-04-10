@@ -9,16 +9,21 @@
     4. Time
     5. Getpass
        
-  ## REQUIREMENTS
-    - Python3
-    - MySQL command line client
-    - Install the libraries using pip.
-        - pip install mysql-connector
-        - pip install tk
-        - and other libraries (if already not installed).
+ ### REQUIREMENTS
+- Python3
+- MySQL command line client
+- Install the libraries using pip.
+  - pip install mysql-connector
+  - pip install tk
+  - and other libraries (if already not installed).
         
-  ### SETUP
+### SETUP
 - Use .sql dump for sample database
 - In Mysql, use cmd:
     - SOURCE path-to-the-data.sql
 - Make sure to change the password in python file (Line 10) with your MySQL client password.
+  
+### POST-SETUP
+- Username - demo
+- Password - #demo
+- Their are more users. Find them in sql dump.
