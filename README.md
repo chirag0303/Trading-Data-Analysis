@@ -1,10 +1,24 @@
 # Trading-System
-  Used for storing, maintaining,and analysing the data of any person's trading data.
-  Developed using Python which is connected to a db using SQL.
-  Offers many operations for users such as Executing, Changing details etc.
-  Libraries used:
-    1. Connector
-    2. Matplotlib
-    3. Time
-    4. Tkinter  
+  - Used for storing, maintaining,and analysing the data of any person's trading data.
+  - Developed using Python which is connected to a db using SQL.
+  - Offers many operations for users such as Executing, Changing details etc.
+  - Libraries used:
+    1. Tkinter  
+    2. Python-SQL Connector
+    3. Matplotlib
+    4. Time
     5. Getpass
+       
+  ## REQUIREMENTS
+    - Python3
+    - MySQL command line client
+    - Install the libraries using pip.
+        - pip install mysql-connector
+        - pip install tk
+        - and other libraries (if already not installed).
+        
+  ### SETUP
+- Use .sql dump for sample database
+- In Mysql, use cmd:
+    - SOURCE path-to-the-data.sql
+- Make sure to change the password in python file (Line 10) with your MySQL client password.
