@@ -18,7 +18,7 @@
   - and other libraries (if already not installed).
         
 ### SETUP
-- Use .sql dump for sample database
+- Use .sql dump for sample database( Provided in th repo)
 - In Mysql, use cmd:
     - SOURCE path-to-the-data.sql
 - Make sure to change the password in python file (Line 10) with your MySQL client password.
